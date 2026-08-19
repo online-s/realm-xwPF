@@ -9,7 +9,7 @@ LIB_DIR="$INSTALL_DIR/lib"
 SHORTCUT_PATH="/usr/local/bin/pf"
 
 # 仓库地址
-REPO_RAW_URL="https://raw.githubusercontent.com/zywe03/realm-xwPF/main"
+REPO_RAW_URL="https://raw.githubusercontent.com/online-s/realm-xwPF/main"
 
 # 模块列表（加载顺序）
 LIB_FILES=("core.sh" "rules.sh" "server.sh" "realm.sh" "ui.sh")
