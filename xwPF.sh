@@ -117,7 +117,9 @@ case "${1:-}" in
         [ "$(id -u)" -ne 0 ] && { echo -e "${_RED}错误: 需要 root 权限${_NC}"; exit 1; }
         _bootstrap || exit 1
         _load_libs || exit 1
-        _SKIP_SCRIPT_UPDATE=1 smart_install
+        _SKIP_SCRIPT_UPDATE=1 smart_install || exit 1
+        echo -e "${_GREEN}正在自动重启服务...${_NC}"
+        exec "$SHORTCUT_PATH" --restart-service
         ;;
     *)
         _load_libs || exit 1
