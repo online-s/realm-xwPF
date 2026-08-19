@@ -1,3 +1,5 @@
+https://github.com/zywe03/realm-xwPF 转载此处作者！
+
 # Realm 全功能一键网络转发管理,纯脚本快速搭建中转服务器
 
 [中文](README.md) | [English](README_EN.md) | [端口流量狗脚本介绍](port-traffic-dog-README.md)
@@ -13,11 +15,10 @@
 
 ### xwPF.sh realm转发脚本
 
-![81ce7ea9e40068f6fda04b66ca3bd1ff.gif](https://i.mji.rip/2025/12/12/81ce7ea9e40068f6fda04b66ca3bd1ff.gif)
+
 
 ### 端口流量犬
 
-![cc59017896d277a8b35109ae44eac977.gif](https://i.mji.rip/2025/12/12/cc59017896d277a8b35109ae44eac977.gif)
 
 ### 中转网络链路测试脚本
 ```
