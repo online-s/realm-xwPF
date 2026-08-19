@@ -217,7 +217,8 @@ install_realm() {
 
     # 离线安装选项
     local download_file=""
-    read -p "离线安装realm输入完整路径(回车默认自动下载): " local_package_path
+    local local_package_path=""
+    # read -p "离线安装realm输入完整路径(回车默认自动下载): " local_package_path
     
     if [ -n "$local_package_path" ] && [ -f "$local_package_path" ]; then
         echo -e "${GREEN}✓ 使用本地文件: $local_package_path${NC}"
